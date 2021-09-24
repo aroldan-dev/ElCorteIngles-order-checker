@@ -1,3 +1,11 @@
+ECI order checker only tested in ES region
+Feel free to use it and report bugs
+Multiple order soon
+
+
+
+
+
 - 👋 Hi, I’m @rxldann
 - 👀 I’m interested in cyber security
 - 🌱 I’m currently learning python on my own and java as student
