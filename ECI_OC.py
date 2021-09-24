@@ -19,7 +19,7 @@ soup = BeautifulSoup(driver.page_source,'html.parser')
 status = soup.find('div',class_='product-resume_body').text
 print(status)
 
-webhook = 'YOUR_WENHOOK_HERE'
+webhook = 'YOUR_WEBHOOK_HERE'
 w = DiscordWebhook(url=webhook)
 embed = DiscordEmbed(title='El Corte Ingles order checker',color='9498256')
 embed.add_embed_field(name='Email',value =email)
