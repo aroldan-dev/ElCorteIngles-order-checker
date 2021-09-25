@@ -10,7 +10,7 @@ email = str(input())
 print("Type your order number: ")
 order = input(int())
 url= (eci_url+'?'+'email='+email+'&order_id='+order)
-PATH = "C:\Program Files (x86)\chromedriver.exe"
+PATH = "YOUR_WEBDRIVER.EXE_PATH_HERE"
 driver = webdriver.Chrome(PATH)
 
 driver.get(url)
